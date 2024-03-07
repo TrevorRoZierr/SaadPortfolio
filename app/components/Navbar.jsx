@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { BiX } from "react-icons/bi";
 import Hamburger from "./Hamburger";
 import { useState } from "react";
 
@@ -41,7 +42,7 @@ const Navbar = () => {
               className="sm:mr-14 mr-3 text-gray-300 rounded p-1 sm:text-md text-md sm:font-medium font-bold sm:bg-none bg-gradient-to-l from-red-950 to-red-800 border-2 border-black shadow-[0.25rem_0.25rem_0px_0px_rgba(0,0,0,1)] sm:hidden flex"
               onClick={toggleHam}
             >
-              <RxHamburgerMenu />
+              {isHamburgerOpen ? <BiX /> : <RxHamburgerMenu />}
             </button>
             <Link
               href="/resume"
