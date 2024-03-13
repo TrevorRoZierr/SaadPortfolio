@@ -29,8 +29,7 @@ const About = () => {
         NextJS, ReactJS, NodeJS & ExpressJS using Databases... Check out my
         projects below, check my resume to know more about me. Apart from
         programming I am an architect too that loves neo-gothic architecture. If you
-        wanna share any thoughts then feel free to drop texts either in Gram
-        above or Lets Talk below.
+        wanna share any thoughts then feel free to drop texts in Lets Talk below.
       </p>
     </div>
   );

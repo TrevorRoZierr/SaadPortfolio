@@ -66,7 +66,7 @@ const Navbar = () => {
               <Link
                 href="https://www.instagram.com/sameoldtreva/"
                 target="_blank"
-                className="sm:px-4 px-2 sm:py-2 py-1 lg:px-4 lg:py-2 md:px-1 md:py-1 bg-gradient-to-l from-red-950 to-red-800 sm:font-semibold sm:text-lg text-md md:text-sm lg:text-xl border-2 border-black shadow-[0.25rem_0.25rem_0px_0px_rgba(0,0,0,1)] rounded font-unbounded text-gray-300 capitalize"
+                className="hidden sm:px-4 px-2 sm:py-2 py-1 lg:px-4 lg:py-2 md:px-1 md:py-1 bg-gradient-to-l from-red-950 to-red-800 sm:font-semibold sm:text-lg text-md md:text-xs lg:text-xl border-2 border-black shadow-[0.25rem_0.25rem_0px_0px_rgba(0,0,0,1)] rounded font-unbounded text-gray-300 capitalize"
               >
                 gram
               </Link>
