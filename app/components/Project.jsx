@@ -12,7 +12,7 @@ const Project = () => {
       <LeftProj
         projLink="https://grove-restaurant.vercel.app/"
         projName="Restaurant"
-        projDetails="made with NextJS, prisma, mysql, tailwind. Tap the button to visit project."
+        projDetails="made with NextJS, prisma, MYSQL, tailwind, RESTFUL Apis. Tap the button to visit project."
         imgSrc="/proj3.png"
         alt="proj1"
       />
